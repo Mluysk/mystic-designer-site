@@ -162,7 +162,7 @@ img {
   font-family: var(--font-hero);
   font-size: clamp(76px, 9vw, 136px);
   letter-spacing: 0.05em;
-  line-height: 0.95;
+  line-height: 1.16;
   margin: 14px 0 24px;
   text-transform: uppercase;
 }
