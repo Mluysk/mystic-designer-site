@@ -146,6 +146,8 @@ img {
 .hero-text {
   text-align: center;
   padding-left: 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .eyebrow {
@@ -161,10 +163,10 @@ img {
 
 .hero h1 {
   font-family: var(--font-hero);
-  font-size: clamp(80px, 9vw, 132px);
-  letter-spacing: 0.03em;
-  line-height: 1.08;
-  margin: 14px 0 18px;
+  font-size: clamp(82px, 9.5vw, 142px);
+  letter-spacing: 0.025em;
+  line-height: 1.05;
+  margin: 8px 0 12px;
   text-transform: uppercase;
 }
 
