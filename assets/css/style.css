@@ -62,12 +62,12 @@ img {
 
 .nav-menu {
   display: flex;
-  gap: 28px;
+  gap: 36px;
   justify-content: flex-start;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  color: #3e3f45;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #202020;
 }
 
 .nav-menu a:hover {
@@ -86,9 +86,9 @@ img {
   right: 0;
   margin: 0 auto;
   bottom: -6px;
-  width: 76px;
-  height: 3px;
-  background: var(--text);
+  width: 64px;
+  height: 2px;
+  background: #202020;
   opacity: 0;
   transition: opacity 0.2s ease;
 }
