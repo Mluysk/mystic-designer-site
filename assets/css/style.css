@@ -74,21 +74,33 @@ img {
   color: var(--text);
 }
 
+.nav-menu a {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.nav-menu a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -6px;
+  width: 76px;
+  height: 3px;
+  background: var(--text);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
 .nav-menu a.active {
   color: var(--text);
   position: relative;
 }
 
-.nav-menu a.active::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -10px;
-  margin: 0 auto;
-  width: 80px;
-  height: 3px;
-  background: var(--text);
+.nav-menu a.active::after,
+.nav-menu a:hover::after {
+  opacity: 1;
 }
 
 .nav-menu .with-caret span {
