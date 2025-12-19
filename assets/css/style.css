@@ -161,10 +161,10 @@ img {
 
 .hero h1 {
   font-family: var(--font-hero);
-  font-size: clamp(80px, 9vw, 140px);
-  letter-spacing: 0.045em;
-  line-height: 1.16;
-  margin: 14px 0 24px;
+  font-size: clamp(80px, 9vw, 132px);
+  letter-spacing: 0.03em;
+  line-height: 1.08;
+  margin: 14px 0 18px;
   text-transform: uppercase;
 }
 
