@@ -62,12 +62,12 @@ img {
 
 .nav-menu {
   display: flex;
-  gap: 38px;
+  gap: 46px;
   justify-content: flex-start;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 500;
   letter-spacing: 0;
-  color: #171717;
+  color: #1b1b1b;
 }
 
 .nav-menu a:hover {
@@ -85,10 +85,10 @@ img {
   left: 0;
   right: 0;
   margin: 0 auto;
-  bottom: -5px;
-  width: 58px;
+  bottom: -6px;
+  width: 70px;
   height: 2px;
-  background: #171717;
+  background: #1b1b1b;
   opacity: 0;
   transition: opacity 0.2s ease;
 }
