@@ -201,9 +201,9 @@ img {
 
 .hero h1 {
   font-family: var(--font-hero);
-  font-size: 136px;
-  letter-spacing: -0.8px;
-  line-height: 130px;
+  font-size: 110px;
+  letter-spacing: -0.6px;
+  line-height: 104px;
   font-weight: 700;
   margin: 12px 0 18px;
   text-transform: uppercase;
