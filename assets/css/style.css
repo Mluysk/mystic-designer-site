@@ -51,7 +51,7 @@ img {
   background: var(--light);
   width: 100%;
   padding: 22px 0 12px;
-  transition: background-color 0.2s ease;
+  transition: none;
 }
 
 .sticky-bar.fixed {
