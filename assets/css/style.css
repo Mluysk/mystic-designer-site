@@ -149,6 +149,7 @@ img {
 .logo {
   width: 76px;
   height: auto;
+  filter: invert(12%) sepia(6%) saturate(518%) hue-rotate(185deg) brightness(92%) contrast(91%);
 }
 
 .hero {
@@ -193,6 +194,7 @@ img {
   width: 800px;
   max-width: 35vw;
   height: auto;
+  filter: grayscale(90%) brightness(95%) contrast(95%);
   position: relative;
   z-index: 0;
 }
