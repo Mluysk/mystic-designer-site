@@ -271,7 +271,7 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 46px;
-  margin-top: 42px;
+  margin-top: -38px;
 }
 
 .service-card {
@@ -279,6 +279,11 @@ img {
   gap: 14px;
   color: #cdd2dc;
   font-size: 14px;
+}
+
+.service-icon {
+  font-size: 32px;
+  color: #ffffff;
 }
 
 .service-card h3 {
