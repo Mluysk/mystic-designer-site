@@ -116,7 +116,7 @@ img {
 .logo-wrapper {
   display: flex;
   justify-content: center;
-  margin: 10px 0 26px;
+  margin: -6px 0 16px;
 }
 
 .logo {
