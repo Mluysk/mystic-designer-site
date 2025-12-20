@@ -160,7 +160,7 @@ img {
   gap: 20px;
   font-size: 28px;
   justify-content: flex-start;
-  margin: 0 0 26px 96px;
+  margin: 0 0 26px 80px;
 }
 
 .hero-content {
@@ -171,10 +171,10 @@ img {
 }
 
 .hero-text {
-  text-align: center;
+  text-align: left;
   padding-left: 0;
   max-width: 1180px;
-  margin: 0 auto;
+  margin: 0 auto 0 80px;
 }
 
 .eyebrow {
