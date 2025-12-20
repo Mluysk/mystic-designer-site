@@ -165,7 +165,7 @@ img {
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 240px;
+  grid-template-columns: 1fr 320px;
   align-items: center;
   gap: 32px;
 }
@@ -175,6 +175,17 @@ img {
   padding-left: 0;
   max-width: 1180px;
   margin: 0 auto 0 10px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hero-image img {
+  width: 300px;
+  height: auto;
 }
 
 .eyebrow {
