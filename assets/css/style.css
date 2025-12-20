@@ -51,7 +51,7 @@ img {
   background: var(--light);
   width: 100%;
   padding: 22px 0 12px;
-  transition: none;
+  transition: background-color 0.2s ease;
 }
 
 .sticky-bar.fixed {
@@ -60,6 +60,7 @@ img {
   left: 0;
   right: 0;
   z-index: 20;
+  background: rgba(236, 232, 227, 0.9);
 }
 
 .sticky-placeholder {
