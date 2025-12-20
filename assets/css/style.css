@@ -168,6 +168,7 @@ img {
   grid-template-columns: 1fr auto;
   align-items: center;
   gap: 32px;
+  position: relative;
 }
 
 .hero-text {
@@ -175,6 +176,8 @@ img {
   padding-left: 0;
   max-width: 1180px;
   margin: 0 auto 0 10px;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-image {
@@ -182,12 +185,16 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: -140px;
+  position: relative;
+  z-index: 0;
 }
 
 .hero-image img {
   width: 800px;
   max-width: 35vw;
   height: auto;
+  position: relative;
+  z-index: 0;
 }
 
 .eyebrow {
