@@ -92,6 +92,12 @@ img {
   color: #1b1b1b;
 }
 
+.nav-menu .home-icon svg {
+  width: 26px;
+  height: 26px;
+  vertical-align: middle;
+}
+
 .nav-menu a:hover {
   color: var(--text);
 }
