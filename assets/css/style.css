@@ -1,5 +1,5 @@
 :root {
-  --light: #e8e8e8;
+  --light: #ece8e3;
   --lighter: #e6ebf2;
   --dark: #1f2127;
   --accent: #33353c;
@@ -35,37 +35,37 @@ img {
 }
 
 .container {
-  width: min(1340px, 94%);
+  width: min(1400px, 94%);
   margin: 0 auto;
 }
 
 .header {
   background: var(--light);
-  padding: 26px 0 40px;
+  padding: 22px 0 36px;
   position: relative;
   overflow: hidden;
 }
 
 .top-nav {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 18px;
-  font-size: 15px;
+  gap: 28px;
+  font-size: 18px;
 }
 
 .social-row {
   display: flex;
-  gap: 16px;
-  justify-content: center;
-  font-size: 18px;
+  gap: 18px;
+  justify-content: flex-start;
+  font-size: 20px;
 }
 
 .nav-menu {
   display: flex;
-  gap: 46px;
+  gap: 42px;
   justify-content: flex-start;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 0;
   color: #1b1b1b;
@@ -87,7 +87,7 @@ img {
   right: 0;
   margin: 0 auto;
   bottom: -6px;
-  width: 70px;
+  width: 60px;
   height: 2px;
   background: #1b1b1b;
   opacity: 0;
@@ -116,7 +116,7 @@ img {
 .logo-wrapper {
   display: flex;
   justify-content: center;
-  margin: 12px 0 32px;
+  margin: 10px 0 26px;
 }
 
 .logo {
@@ -125,36 +125,36 @@ img {
 }
 
 .hero {
-  margin: 10px auto 64px;
+  margin: 14px auto 70px;
 }
 
 .hero-social {
   display: flex;
-  gap: 18px;
-  font-size: 26px;
-  justify-content: center;
-  margin: 0 auto 22px auto;
+  gap: 20px;
+  font-size: 28px;
+  justify-content: flex-start;
+  margin: 0 0 26px 96px;
 }
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 180px;
+  grid-template-columns: 1fr 240px;
   align-items: center;
-  gap: 20px;
+  gap: 32px;
 }
 
 .hero-text {
   text-align: center;
   padding-left: 0;
-  max-width: 1200px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
 .eyebrow {
   font-family: var(--font-heading);
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 4px;
 }
 
 .eyebrow.dark {
@@ -163,16 +163,16 @@ img {
 
 .hero h1 {
   font-family: var(--font-hero);
-  font-size: clamp(82px, 9.5vw, 142px);
-  letter-spacing: 0.025em;
-  line-height: 1.05;
-  margin: 8px 0 12px;
+  font-size: 170px;
+  letter-spacing: -1px;
+  line-height: 162px;
+  margin: 12px 0 18px;
   text-transform: uppercase;
 }
 
 .lead-block {
   max-width: 520px;
-  margin: 6px auto 0;
+  margin: 8px auto 0;
   text-align: left;
 }
 
@@ -185,10 +185,10 @@ img {
 
 .line {
   display: block;
-  width: 70px;
+  width: 68px;
   height: 5px;
   background: var(--text);
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .services {
