@@ -200,7 +200,7 @@ img {
 
 .lead-block {
   max-width: 520px;
-  margin: 8px 0 0 10px;
+  margin: 8px 0 0 0;
   text-align: left;
 }
 
