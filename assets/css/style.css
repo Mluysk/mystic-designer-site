@@ -47,12 +47,23 @@ img {
 }
 
 .sticky-bar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  position: relative;
   background: var(--light);
   width: 100%;
   padding: 22px 0 12px;
+  transition: none;
+}
+
+.sticky-bar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+.sticky-placeholder {
+  height: 0;
 }
 
 .top-nav {
