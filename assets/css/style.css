@@ -165,7 +165,7 @@ img {
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: 1fr auto;
   align-items: center;
   gap: 32px;
 }
@@ -184,7 +184,8 @@ img {
 }
 
 .hero-image img {
-  width: 1230px;
+  width: 3690px;
+  max-width: 80vw;
   height: auto;
 }
 
