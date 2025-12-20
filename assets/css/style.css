@@ -244,7 +244,7 @@ img {
 .services {
   background: var(--dark);
   color: #fff;
-  padding: 72px 0 90px;
+  padding: 22px 0 90px;
 }
 
 .services h2,
@@ -262,6 +262,9 @@ img {
 
 .services h2 {
   margin-bottom: 12px;
+}
+.services .line {
+  background: #ffffff;
 }
 
 .service-grid {
