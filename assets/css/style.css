@@ -283,16 +283,22 @@ img {
 
 .service-card {
   display: grid;
-  gap: 14px;
+  gap: 8px;
   color: #cdd2dc;
   font-size: 14px;
+  justify-items: start;
+}
+
+.service-card h3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .title-icon {
-  font-size: 22px;
+  font-size: 20px;
   color: #ffffff;
   display: inline-block;
-  margin-bottom: 4px;
 }
 
 .service-card h3 {
