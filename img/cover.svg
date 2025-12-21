@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract studio illustration</title>
+  <desc id="desc">Geometric illustration with layered gradients and spark lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f4f6" />
+      <stop offset="50%" stop-color="#eaeaea" />
+      <stop offset="100%" stop-color="#dfe4ec" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f2127" />
+      <stop offset="100%" stop-color="#4b4f5b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)" />
+  <rect x="120" y="150" width="520" height="520" rx="18" fill="#ffffff" stroke="#cfd3dd" stroke-width="6" />
+  <rect x="660" y="190" width="320" height="360" rx="22" fill="#f7f7f8" stroke="#d9dde5" stroke-width="6" />
+  <rect x="200" y="230" width="360" height="110" rx="12" fill="#1f2127" opacity="0.9" />
+  <rect x="700" y="240" width="240" height="90" rx="12" fill="#1f2127" opacity="0.9" />
+  <circle cx="430" cy="480" r="120" fill="#f1f3f6" stroke="#cfd3dd" stroke-width="6" />
+  <circle cx="430" cy="480" r="78" fill="#1f2127" opacity="0.9" />
+  <rect x="740" y="370" width="160" height="42" rx="8" fill="url(#accent)" />
+  <rect x="220" y="380" width="120" height="16" rx="8" fill="#b6bdc8" />
+  <rect x="220" y="410" width="140" height="16" rx="8" fill="#c7ced8" />
+  <path d="M170 650 C310 570 480 620 640 580" fill="none" stroke="#1f2127" stroke-width="8" stroke-linecap="round" opacity="0.16" />
+  <path d="M660 620 C760 560 900 600 1020 560" fill="none" stroke="#1f2127" stroke-width="8" stroke-linecap="round" opacity="0.16" />
+  <circle cx="740" cy="540" r="20" fill="#1f2127" opacity="0.8" />
+  <circle cx="780" cy="560" r="16" fill="#4b4f5b" opacity="0.8" />
+  <circle cx="820" cy="530" r="12" fill="#7b7f89" opacity="0.7" />
+  <path d="M320 720 Q420 660 520 700 T760 700" fill="none" stroke="#4b4f5b" stroke-width="5" stroke-linecap="round" opacity="0.5" />
+  <rect x="680" y="670" width="120" height="14" rx="7" fill="#cfd3dd" />
+  <rect x="840" y="670" width="140" height="14" rx="7" fill="#dfe4ec" />
+  <path d="M280 200 L300 160 L320 200 M880 540 L900 500 L920 540" stroke="#d3d8e0" stroke-width="6" stroke-linecap="round" fill="none" />
+</svg>
