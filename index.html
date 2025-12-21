@@ -324,22 +324,22 @@
           <p>Quer saber como a Mystic Designer trabalha, tem um projeto em mente ou deseja contratar nossos serviços? Entre em contato e vamos conversar.</p>
           <span class="line"></span>
         </div>
-        <form class="contact-form">
+        <form class="contact-form" action="mailto:email@mystic-designer.com.br" method="POST" enctype="text/plain">
           <div class="form-row">
             <label>Nome*</label>
-            <input type="text" placeholder="Seu nome" required>
+            <input type="text" name="nome" placeholder="Seu nome" required>
           </div>
           <div class="form-row">
             <label>Sobrenome</label>
-            <input type="text" placeholder="Sobrenome">
+            <input type="text" name="sobrenome" placeholder="Sobrenome">
           </div>
           <div class="form-row">
             <label>Seu email*</label>
-            <input type="email" placeholder="Seu E-mail" required>
+            <input type="email" name="email" placeholder="Seu E-mail" required>
           </div>
           <div class="form-row">
             <label>Mensagem*</label>
-            <textarea rows="4" placeholder="Sua Mensagem" required></textarea>
+            <textarea name="mensagem" rows="4" placeholder="Sua Mensagem" required></textarea>
           </div>
           <button type="submit" class="button dark">ENVIAR</button>
         </form>
