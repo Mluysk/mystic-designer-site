@@ -278,7 +278,7 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 46px;
-  margin-top: -60px;
+  margin-top: -80px;
 }
 
 .service-card {
