@@ -22,6 +22,7 @@ body {
   color: var(--text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 a {
@@ -185,13 +186,13 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-left: -140px;
+  margin-left: clamp(-120px, -8vw, 0px);
   position: relative;
   z-index: 0;
 }
 
 .hero-image img {
-  width: 800px;
+  width: 760px;
   max-width: 35vw;
   height: auto;
   filter: grayscale(90%) brightness(95%) contrast(95%);
@@ -513,7 +514,7 @@ img {
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04);
-  width: 309px;          /* largura fixa real */
+  width: 100%;
   max-width: 309px;
   overflow: hidden;
   margin: 0;
@@ -766,15 +767,27 @@ textarea:focus {
 @media (max-width: 1000px) {
   .hero-content {
     grid-template-columns: 1fr;
-    gap: 26px;
+    gap: 22px;
+    text-align: center;
   }
 
   .hero-text {
     padding-left: 0;
+    margin: 0 auto;
   }
 
   .hero-social {
     margin-left: 0;
+    justify-content: center;
+  }
+
+  .hero-image {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    max-width: min(82vw, 560px);
   }
 
   .featured-project {
@@ -801,10 +814,13 @@ textarea:focus {
   .nav-menu {
     order: 3;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
   }
 
   .hero h1 {
     font-size: clamp(52px, 18vw, 88px);
+    line-height: 1.05;
   }
 
   .featured-images {
@@ -824,5 +840,54 @@ textarea:focus {
   .team-grid,
   .other-grid {
     grid-template-columns: 1fr;
+  }
+
+  .logos-track {
+    gap: 38px;
+  }
+}
+
+@media (max-width: 540px) {
+  .header {
+    padding-bottom: 24px;
+  }
+
+  .sticky-bar {
+    padding: 16px 0 8px;
+  }
+
+  .nav-menu {
+    font-size: 15px;
+    gap: 10px;
+  }
+
+  .hero {
+    margin: 10px auto 42px;
+  }
+
+  .hero h1 {
+    font-size: clamp(42px, 14vw, 70px);
+  }
+
+  .lead {
+    font-size: 15px;
+  }
+
+  .process,
+  .projects,
+  .services,
+  .contact,
+  .team,
+  .partners {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .member-card {
+    margin: 0 auto;
+  }
+
+  .logos-track {
+    gap: 28px;
   }
 }
