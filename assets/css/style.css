@@ -218,16 +218,6 @@ img {
   filter: invert(12%) sepia(6%) saturate(518%) hue-rotate(185deg) brightness(92%) contrast(91%);
 }
 
-.mobile-home {
-  display: none;
-  color: #1b1b1b;
-}
-
-.mobile-home svg {
-  width: 32px;
-  height: 32px;
-}
-
 .mobile-menu-header {
   display: flex;
   justify-content: center;
@@ -955,10 +945,6 @@ textarea:focus {
   }
 
   .menu-toggle {
-    display: inline-flex;
-  }
-
-  .mobile-home {
     display: inline-flex;
   }
 
