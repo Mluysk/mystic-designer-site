@@ -16,6 +16,18 @@
   padding: 0;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 body {
   font-family: var(--font-body);
   background: var(--light);
@@ -243,6 +255,16 @@ img {
 .mobile-nav a {
   position: relative;
   padding-bottom: 6px;
+}
+
+.mobile-nav .mobile-home-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.mobile-nav .mobile-home-link svg {
+  width: 38px;
+  height: 38px;
 }
 
 .mobile-nav a.active::after {

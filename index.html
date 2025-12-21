@@ -80,7 +80,17 @@
         <img src="img/logo.png" alt="Mystic Designer" class="logo" />
       </div>
       <nav class="mobile-nav">
-        <a class="active" href="#home">Home</a>
+        <a class="active mobile-home-link" href="#home" aria-label="Home">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M6 24 L32 10 L58 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="10" y="24" width="44" height="6" fill="currentColor" />
+            <rect x="18" y="30" width="8" height="22" fill="currentColor" />
+            <rect x="38" y="30" width="8" height="22" fill="currentColor" />
+            <rect x="12" y="52" width="40" height="4" fill="currentColor" />
+            <rect x="8" y="56" width="48" height="3" fill="currentColor" />
+          </svg>
+          <span class="sr-only">Home</span>
+        </a>
         <a href="#about">Sobre</a>
         <a href="#projects" class="with-caret">Projects <span aria-hidden="true">▼</span></a>
         <a href="#contact">Contato</a>
