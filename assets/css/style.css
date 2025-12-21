@@ -80,39 +80,35 @@ img {
   display: none;
   background: none;
   border: none;
-  padding: 8px 6px;
+  padding: 6px;
   cursor: pointer;
   width: 44px;
   height: 44px;
   align-items: center;
   justify-content: center;
-  gap: 6px;
   position: relative;
+  color: #1b1b1b;
 }
 
-.menu-toggle .bar {
+.menu-toggle svg {
+  width: 28px;
+  height: 28px;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.menu-toggle .icon-close {
+  display: none;
+  stroke: currentColor;
+  fill: none;
+}
+
+.menu-toggle.open .icon-open {
+  display: none;
+}
+
+.menu-toggle.open .icon-close {
   display: block;
-  width: 20px;
-  height: 3px;
-  background: #1b1b1b;
-  border-radius: 999px;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-.menu-toggle .bar + .bar {
-  margin-top: 6px;
-}
-
-.menu-toggle.open .bar:nth-child(1) {
-  transform: translateY(9px) rotate(45deg);
-}
-
-.menu-toggle.open .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.menu-toggle.open .bar:nth-child(3) {
-  transform: translateY(-9px) rotate(-45deg);
 }
 
 .social-row {
