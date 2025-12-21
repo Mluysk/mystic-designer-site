@@ -80,22 +80,22 @@ img {
   display: none;
   background: none;
   border: none;
-  padding: 6px;
+  padding: 8px 6px;
   cursor: pointer;
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 6px;
   position: relative;
 }
 
 .menu-toggle .bar {
   display: block;
-  width: 24px;
-  height: 2px;
+  width: 20px;
+  height: 3px;
   background: #1b1b1b;
-  border-radius: 10px;
+  border-radius: 999px;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
@@ -104,7 +104,7 @@ img {
 }
 
 .menu-toggle.open .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
+  transform: translateY(9px) rotate(45deg);
 }
 
 .menu-toggle.open .bar:nth-child(2) {
@@ -112,7 +112,7 @@ img {
 }
 
 .menu-toggle.open .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-9px) rotate(-45deg);
 }
 
 .social-row {
@@ -189,6 +189,9 @@ img {
   flex-direction: column;
   padding: 18px 24px 32px;
   gap: 26px;
+  height: 66vh;
+  max-height: 66vh;
+  overflow-y: auto;
 }
 
 .mobile-menu.open {
