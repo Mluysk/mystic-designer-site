@@ -288,9 +288,11 @@ img {
   font-size: 14px;
 }
 
-.service-icon {
-  font-size: 32px;
+.title-icon {
+  font-size: 22px;
   color: #ffffff;
+  display: inline-block;
+  margin-bottom: 4px;
 }
 
 .service-card h3 {
