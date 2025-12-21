@@ -278,12 +278,12 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 46px;
-  margin-top: 12px;
+  margin-top: 0;
 }
 
 .service-card {
   display: grid;
-  gap: 8px;
+  gap: 6px;
   color: #cdd2dc;
   font-size: 14px;
   justify-items: start;
@@ -298,8 +298,8 @@ img {
   font-size: 22px;
   color: #ffffff;
   display: block;
-  margin-top: 140px;
-  margin-bottom: 3px;
+  margin-top: 0;
+  margin-bottom: 6px;
 }
 
 .service-card h3 {
