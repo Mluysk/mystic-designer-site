@@ -1022,6 +1022,8 @@ textarea:focus {
     grid-column: 1 / span 2;
     margin-top: 6px;
     justify-content: center;
+    width: 100%;
+    text-align: center;
     font-size: 28px;
     gap: 21px;
   }
