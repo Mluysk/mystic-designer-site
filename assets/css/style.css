@@ -992,24 +992,24 @@ textarea:focus {
   }
 
   .footer-grid {
-    grid-template-columns: 1fr;
-    align-items: flex-start;
+    grid-template-columns: auto 1fr;
+    align-items: start;
     justify-items: start;
-    gap: 14px;
+    gap: 14px 16px;
   }
 
   .footer-logo {
     grid-column: 1;
-    grid-row: auto;
+    grid-row: 1 / span 2;
     justify-self: start;
   }
 
   .footer-col {
-    grid-column: 1;
+    grid-column: 2;
   }
 
   .footer .footer-social {
-    grid-column: 1;
+    grid-column: 1 / span 2;
     margin-top: 6px;
   }
 }
