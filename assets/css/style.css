@@ -1006,6 +1006,7 @@ textarea:focus {
 
   .footer-col {
     grid-column: 2;
+    padding-left: 25px;
   }
 
   .footer-col h4 {
