@@ -975,6 +975,29 @@ textarea:focus {
   .logos-track {
     gap: 38px;
   }
+
+  .footer-grid {
+    grid-template-columns: auto 1fr;
+    align-items: flex-start;
+    justify-items: start;
+    gap: 16px 18px;
+  }
+
+  .footer-logo {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    justify-self: start;
+  }
+
+  .footer-col {
+    grid-column: 2;
+  }
+
+  .footer .social-row {
+    justify-content: flex-start;
+    gap: 14px;
+    margin-top: 12px;
+  }
 }
 
 @media (max-width: 540px) {
