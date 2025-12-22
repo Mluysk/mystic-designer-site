@@ -40,6 +40,12 @@
 })();
 
 (function() {
+  const yearTarget = document.getElementById('current-year');
+  if (!yearTarget) return;
+  yearTarget.textContent = new Date().getFullYear();
+})();
+
+(function() {
   const menuToggleButtons = document.querySelectorAll('.menu-toggle');
   const mobileMenu = document.getElementById('mobile-menu');
   if (!mobileMenu || !menuToggleButtons.length) return;
