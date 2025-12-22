@@ -1021,6 +1021,9 @@ textarea:focus {
   .footer .footer-social {
     grid-column: 1 / span 2;
     margin-top: 6px;
+    justify-content: center;
+    font-size: 28px;
+    gap: 21px;
   }
 }
 
