@@ -191,7 +191,7 @@ img {
 .mobile-menu {
   position: fixed;
   inset: 0;
-  background: var(--light);
+  background: var(--dark);
   z-index: 30;
   display: none;
   flex-direction: column;
@@ -232,14 +232,14 @@ img {
 
 .mobile-menu .logo {
   width: 78px;
-  filter: invert(9%) sepia(5%) saturate(900%) hue-rotate(185deg) brightness(92%) contrast(91%);
+  filter: brightness(0) invert(1);
 }
 
 .mobile-nav {
   display: grid;
   gap: 22px;
   font-size: 20px;
-  color: #1b1b1b;
+  color: #f2f3f5;
 }
 
 .mobile-nav a {
@@ -277,6 +277,7 @@ img {
   gap: 16px;
   font-size: 30px;
   margin-top: auto;
+  color: #f2f3f5;
 }
 
 .hero {
